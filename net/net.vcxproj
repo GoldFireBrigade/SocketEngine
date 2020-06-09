@@ -78,6 +78,7 @@
     <ClInclude Include="..\header\net.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\imp_win\net_mgr_win.cpp" />
     <ClCompile Include="src\net_mgr.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
